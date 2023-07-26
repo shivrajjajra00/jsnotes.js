@@ -150,3 +150,46 @@
 // console.log(ans);
 
 
+// 19. arr.sort() yhe function Array ko alphabate wise print krta h and yhe natural sorting functing h 
+
+// Example 
+
+//  let arr = ["b","a", "d","c"]
+// arr.sort()
+// console.log(arr);
+
+//  let arr = ["we","code", "shiv","jajra"]
+// arr.sort()
+// console.log(arr);
+
+//  let arr = [1,5,3,4,2]
+// arr.sort()
+// console.log(arr);
+
+//  let arr = [11,5,8,23,44,2]
+
+//  let ans =  arr.sort((a,b) => {
+//     console.log("a",a,"b",b);
+//     return a-b
+//  })
+//  console.log(ans);
+
+//  let arr = [11,5,8,23,44,2]
+
+//  let ans =  arr.sort((a,b) => {
+//     console.log("a",a,"b",b);
+//     return b-a
+//  })
+//  console.log(ans);
+
+// 20. arr.flat  yhe function 2 array ko jodne ka kam krta hai  but 2 se zyda aaray ko nhi jod skta 
+
+// let arr = [ 1,2,3,4]
+// let arr2 = [arr,5,6,7,8]
+// console.log(arr2.flat());
+
+// let arr = [ 1,2,3,4]
+// let arr2 = [arr,5,6,7,8]
+// let arr3 = [arr,arr2,5,6,7,8]
+// console.log(arr3.flat());
+
