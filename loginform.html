@@ -1,0 +1,197 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 400px;
+        height: 600px;
+        background-color: bisque;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form name="regform" onsubmit="submit()">
+      <h1 style="text-align: center">registeration form</h1>
+      <label for="inputText">UserName :</label>
+      <input type="text" name="inputText" required />
+      <br />
+      <br />
+      <br />
+      <label for="number">MobileNumber :</label>
+      <input type="number" name="number" required />
+      <br />
+      <br />
+      <br />
+      <label for="password"> Password : </label>
+      <input type="password" name="password" required />
+      <br />
+      <br />
+      <br />
+      <label for="Email">Email : </label>
+      <input type="email" name="Email" required />
+      <br />
+      <br />
+      <br />
+      <label>Gender</label>
+      <div style="display: flex">
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">male</label> <br />
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">female</label> <br />
+
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="html">other</label><br />
+      </div>
+
+      <br />
+      <br />
+      <label for="selectList">selectlist : </label>
+      <select name="selectList" required>
+        <option>--select--</option>
+        <option>BCA</option>
+        <option>MCA</option>
+        <option>B.tech</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <div style="display: flex">
+        <input type="checkbox" required />
+        <label for="checkbox"> I'm not a robot</label>
+      </div>
+      <br />
+      <br />
+      <button>Submit</button>
+      <button>Reset</button>
+    </form>
+
+    <script>
+      function submit() {
+        let name = document.forms["regform"]["name"].value;
+        let number = document.forms["regform"]["number"].value;
+        let password = document.forms["regform"]["password"].value;
+        let Email = document.forms["regform"]["Email"].value;
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div name="div" style="background-color: green">div1</div>
+    <div name="div" style="background-color: yellow">div2</div>
+    <div name="div" style="background-color: pink">div3</div>
+    <div name="div" style="background-color: blue">div4</div>
+    <button onclick="hideDiv()">hide for div</button>
+
+    <script>
+      function hideDiv() {
+        const randomNumber = Math.trunc(Math.random() * 4) + 1;
+        document.getElementsByName("div")[randomNumber - 1].style.display =
+          "none";
+        let index = 1;
+        for (let div of document.getElementsByName("div")) {
+          if (index !== randomNumber) {
+            div.style.display = "block";
+          }
+          ++index;
+        }
+      }
+    </script>
+     
+  </body>
+</html>
+ -->
+
+<!-- //---------------------------------------------------------------------------------- -->
+
+<!-- DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZTEexrHhxoGk_3iqmdUkfvovA0Y1sE7yfQg&usqp=CAU"
+    />
+    <style>
+      body {
+        margin: 100px 300px;
+        /* background-color: #dbceeb; */
+      }
+      form {
+        margin: 0 auto;
+        text-align: center;
+        /* background-color: #dbceeb; */
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      fieldset {
+        border: 5px rgb(119, 82, 89) double;
+        background-color: #ece8e8;
+        border-radius: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" name="" id="input1" /> <br />
+    <br />
+    <input type="text" name="" id="input2" /><br />
+    answer:
+    <p id="massege"></p>
+    <button id="add" type="button">Add</button>
+    <button id="sub">Sub</button>
+    <button id="mul">Mul</button>
+    <button id="div">Div</button>
+    <script>
+      let answer = document.getElementById("massege");
+      document.getElementById("add").addEventListener("click", () => {
+        const inputnum1 = +document.getElementById("input1").value;
+        const inputnum2 = +document.getElementById("input2").value;
+        answer.textContent = inputnum1 + inputnum2;
+      });
+
+      document.getElementById("sub").addEventListener("click", () => {
+        const inputnum1 = +document.getElementById("input1").value;
+        const inputnum2 = +document.getElementById("input2").value;
+        answer.textContent = inputnum1 - inputnum2;
+      });
+
+      document.getElementById("mul").addEventListener("click", () => {
+        const inputnum1 = +document.getElementById("input1").value;
+        const inputnum2 = +document.getElementById("input2").value;
+        answer.textContent = inputnum1 * inputnum2;
+      });
+
+      document.getElementById("div").addEventListener("click", () => {
+        const inputnum1 = +document.getElementById("input1").value;
+        const inputnum2 = +document.getElementById("input2").value;
+        answer.textContent = inputnum1 / inputnum2;
+      });
+    </script>
+  </body>
+</html> -->
+
+<!-- 
+------------------------------------------------------------------------- -->

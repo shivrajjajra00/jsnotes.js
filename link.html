@@ -1,8 +1,166 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        .box {
+          margin-top: 20px;
+          height: 500px;
+          background-color: #ccc;
+          width: 35%;
+          margin: auto;
+          padding: 20px;
+        }
+        .box h1 {
+          text-align: center;
+        }
+        .input {
+          margin-top: 20px;
+          background-color: #fff;
+          width: 100%;
+          padding: 8px;
+        }
+        .butn {
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+        }
+        .butn button {
+          padding: 5px 20px;
+        }
+      } -->
+    <!-- </style> -->
+  </head>
+  <body>
+    <!-- <div class="box">
+      <h1>Html Form</h1>
+      <input type="number" class="input" />
+      <input type="number" class="input" />
+      <input type="text" class="input" placeholder="write a symbol" />
+      <div class="butn">
+        <button>submit</button>
+      </div> -->
+    </div>
 
-<body>
-
-    <script src="Arraypractice.js"></script>
-
-</body>
+    <script src="allpractice.js"></script>
+  </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 80px;
+
+        background-color: aqua;
+      }
+
+      input {
+        background-color: none;
+        color: rebeccapurple;
+        width: 250px;
+        height: 30px;
+        font-size: 30px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="date" id="todayDate" />
+      <br />
+      <br />
+      <br />
+      <input type="time" id="todaytime" />
+    </div>
+    <script>
+      document.getElementById("todayDate").valueAsDate = new Date();
+      //timing auto work nhi kr rha h
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Hindi : <input type="number" id="hindi" required />
+
+    English : <input type="number" id="english" required />
+
+    Maths : <input type="number" id="maths" required />
+
+    Science : <input type="number" id="science" required />
+
+    physics :<input type="number" id="physics" required />
+
+    <button onclick="calculateTotal()">submit</button>
+
+    <script>
+      function calculateTotal() {
+        let hindi = parseFloat(document.getElementById("hindi").value);
+        let english = parseFloat(document.getElementById("english").value);
+        let maths = parseFloat(document.getElementById("maths").value);
+        let science = parseFloat(document.getElementById("science").value);
+        let physics = parseFloat(document.getElementById("physics").value);
+        let totalCount = hindi + english + maths + science + physics;
+
+        console.log(" total marks :- 500");
+        console.log("Obtained marks :- ", totalCount);
+        let percentage = (totalCount / 500) * 100;
+        console.log("precentage", percentage);
+        if (percentage >= 75) {
+          console.log("grade : A");
+        } else if (percentage >= 60 && percentage < 75) {
+          console.log("grade : B");
+        } else {
+          console.log("grade : C");
+        }
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="input" required />
+    <button onclick="oddEven()">Submit</button>
+    <script>
+      function oddEven() {
+        let values = document.getElementById("input").value;
+        if (values % 2 === 0) {
+          alert("Even");
+        } else {
+          alert("Odd");
+        }
+      }
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
+ -->
